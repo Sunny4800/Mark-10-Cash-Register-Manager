@@ -3,7 +3,8 @@
 ## Tech Stacks Used -
 <br>⬤ HTML<br>
 ⬤ CSS<br>
-⬤ JavaScript<br>
+⬤ JavaScript
+<br>
 ## Preview
 ![image](https://user-images.githubusercontent.com/94648812/189237932-e64a8ad3-4724-4263-88b5-79a744699893.png) <br>
 ## Live Project
