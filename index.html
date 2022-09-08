@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Cash Register Manager</h1>
+        <p class="description">Enter the bill amount and cash given by the customer and know minimum
+            number of notes to return.</p>
+        <label for="bill-amount">Bill Amount :</label>
+        <input type="text" id="bill-amount">
+        <label for="cash">Cash Given :</label>
+        <input type="text" id="cash">
+        <button id="check">Check</button>
+        <p id="errormessage"></p>
+        <table class="change">
+            <caption>Return Change</caption>
+            <tr>
+                <th>No. Of Notes</th>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+                <td id="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <footer> <p>Made By <a href="https://sunny-singh.netlify.app/" target="_blank"> Sunny Singh</a></p> </footer>
+    <script src="index.js"></script>
+</body>
+</html>
